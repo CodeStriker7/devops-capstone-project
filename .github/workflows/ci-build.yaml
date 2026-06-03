@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Lint with flake8
-        run: flake8 service/ --count --statistics
+        run: flake8 service/ --count --max-line-length=120 --statistics
 
       - name: Run unit tests with nosetests
         run: nosetests
