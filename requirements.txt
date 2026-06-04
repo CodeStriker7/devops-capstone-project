@@ -9,7 +9,7 @@ psycopg2-binary
 python-dotenv==0.20.0
 
 # Runtime dependencies
-gunicorn==26.0.0
+gunicorn==20.1.0
 honcho==1.1.0
 
 # Code quality
