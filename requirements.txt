@@ -9,7 +9,7 @@ psycopg2-binary
 python-dotenv==0.20.0
 
 # Runtime dependencies
-gunicorn==20.1.0
+gunicorn==26.0.0
 honcho==1.1.0
 
 # Code quality
@@ -31,4 +31,4 @@ httpie==3.2.1
 flake8==7.3.0
 
 flask-talisman 
-flask-corsgunicorn==26.0.0
+flask-cors
