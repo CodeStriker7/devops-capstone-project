@@ -14,7 +14,7 @@ honcho==1.1.0
 
 # Code quality
 pylint==2.14.0
-flake8==4.0.1
+
 black==22.3.0
 
 # Testing dependencies
@@ -27,3 +27,8 @@ coverage==6.3.2
 
 # Utilities
 httpie==3.2.1
+
+flake8==7.3.0
+
+flask-talisman 
+flask-cors
