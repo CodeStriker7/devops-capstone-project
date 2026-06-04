@@ -16,7 +16,10 @@ app = Flask(__name__)
 app.config.from_object(config)
 
 # Initialize Talisman for Security Headers
-talisman = Talisman(app)
+if app.config['TESTING']:
+    talisman = Talisman(app, force_https=False)
+else:
+    talisman = Talisman(app)
 
 # Initialize CORS for Cross-Origin Resource Sharing
 CORS(app)
