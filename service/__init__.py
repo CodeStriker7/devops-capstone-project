@@ -18,7 +18,7 @@ app.config.from_object(config)
 # Initialize Talisman for Security Headers
 talisman = Talisman(
     app,
-    force_https=(not app.config.get("TESTING", False))
+    force_https=False
 )
 
 # Initialize CORS for Cross-Origin Resource Sharing
